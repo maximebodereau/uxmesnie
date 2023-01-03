@@ -10,8 +10,8 @@
       <button type="submit" onclick="subscribe()">Subscribe</button>
     </form>
     
-    <script type="application/javascript" src="deta.js"></script>
     <script>
+      const { Deta } = require('deta');
       const deta = Deta("a0gfgm5x_Q4i9gG3seyKfCNCTYDue3gzcFiWnkYn5");
       const db = deta.Base("uxmesnie");
       
